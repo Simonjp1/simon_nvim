@@ -34,3 +34,5 @@ vim.opt.relativenumber = true
 vim.opt.number = true
 
 vim.opt.clipboard = "unnamedplus"
+
+vim.o.signcolumn = "yes:1"
