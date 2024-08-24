@@ -42,7 +42,7 @@ return {
 		-- dashboard.section.header.opts.hl = "Error"
 
 		dashboard.section.buttons.val = {
-			dashboard.button("<Leader>e", "  File Explorer"),
+			dashboard.button("<Leader>e", "  File Explorer"),
 			dashboard.button("<C-p>", "  Find File"),
 			dashboard.button("<Leader>fg", "  Find Word"),
 		}
