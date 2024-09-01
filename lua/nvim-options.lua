@@ -2,6 +2,7 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
+vim.opt.conceallevel = 2
 
 -- Define a custom highlight group for yanking
 vim.cmd([[highlight YankHighlight guibg=#ffcc00 guifg=#000000]])
