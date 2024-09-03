@@ -8,10 +8,12 @@ return {
 			},
 			sections = {
 				lualine_a = {
-					{
-						"buffers",
-					},
+          "buffers",
 				},
+        lualine_b = {
+          "branch",
+        },
+        lualine_c = {},
 			},
 		})
 	end,

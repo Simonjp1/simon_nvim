@@ -29,6 +29,9 @@ vim.g.mapleader = " "
 -- Map leader + q to :q
 vim.api.nvim_set_keymap("n", "<leader>q", ":q<CR>", { noremap = true, silent = true })
 
+-- Map leader + bd to closer buffer
+vim.api.nvim_set_keymap("n", "<leader>bd", ":bd<CR>", { noremap = true, silent = true })
+
 -- Map leader + w to :w
 vim.api.nvim_set_keymap("n", "<leader>w", ":w<CR>", { noremap = true, silent = true })
 
