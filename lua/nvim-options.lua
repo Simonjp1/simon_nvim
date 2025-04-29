@@ -45,4 +45,17 @@ vim.opt.number = true
 
 vim.opt.clipboard = "unnamedplus"
 
+vim.g.clipboard = {
+  name = "wsl-clip",
+  copy = {
+    ["+"] = "clip.exe",
+    ["*"] = "clip.exe",
+  },
+  paste = {
+    ["+"] = "powershell.exe -c Get-Clipboard",
+    ["*"] = "powershell.exe -c Get-Clipboard",
+  },
+  cache_enabled = 0,
+}
+
 vim.o.signcolumn = "yes:1"
